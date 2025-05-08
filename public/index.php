@@ -17,8 +17,8 @@ $app->get('/', function (Request $request, Response $response) {
             <title>Pàgina Principal</title>
         </head>
         <body>
-            <h1>Institut Tecnològic de Barcelona</h1>
-            <p>Professors: Rai i David</p>
+            <h1><a href='http://www.itb.cat' target='_BLANK'>Institut Tecnològic de Barcelona</a></h1>
+            <h3>Professors: Rai i David</h3>
             <p>Visca el Giro!</p>
         </body>
         </html>
